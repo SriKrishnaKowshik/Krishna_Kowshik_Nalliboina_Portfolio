@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191414; /* Spotify Black */
+    color: #ffffff; /* White */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+h2 {
+    color: #bbbbbb; /* Light gray for subtitle */
+    margin-top: 5px;
+  }
+
+.Introduction {
+    text-align: center;
+    padding: 60px 20px 20px;
+    color: #1DB954; /* Spotify Green */
+}
