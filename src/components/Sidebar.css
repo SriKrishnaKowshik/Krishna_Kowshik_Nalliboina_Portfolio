@@ -1,0 +1,55 @@
+/* Sidebar.css */
+
+/* Sidebar container styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(25, 20, 20); 
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+  }
+  
+  /* Logo section styles */
+  .logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Menu container styles */
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Individual menu item styles */
+  .menu-item {
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    margin: 8px 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for menu items */
+  .menu-item:hover {
+    background-color: #333;
+  }
+  
