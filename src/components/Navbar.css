@@ -1,0 +1,22 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1d1d1d;
+  z-index: 1000;
+  height: 50px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-left: 8px; 
+}
+
+.Logo {
+  height: 45px;
+}
