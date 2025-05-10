@@ -1,25 +1,40 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaHome, FaUserAlt,FaGraduationCap, FaLaptopCode, FaFileAlt } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
+import { FaHome, FaUserAlt, FaGraduationCap, FaLaptopCode, FaFileAlt, FaMailBulk } from 'react-icons/fa';
 import { TbFileCertificate } from "react-icons/tb";
-import { MdContactMail } from 'react-icons/md';
-
-import './Sidebar.css';  // Import the CSS file
+import './Sidebar.css';
 
 const Sidebar = () => {
+
+
   return (
     <div className="sidebar">
-      <div className="logo-container">
+      <div className="logo-name">
         <h2 className="logo-text">My Portfolio</h2>
       </div>
-      <div className="menu-container">
-        <Link to="/" className="menu-item"><FaHome style={{ marginRight: '8px' }}/> Home</Link>
-        <Link to="/about" className="menu-item"><FaUserAlt style={{ marginRight: '8px' }} /> About Me</Link>
-        <Link to="/education" className="menu-item"><FaGraduationCap style={{ marginRight: '4px' }} /> Education</Link>
-        <Link to="/projects" className="menu-item"><FaLaptopCode style={{ marginRight: '8px' }}/> Projects</Link>
-        <Link to="/certifications" className="menu-item"><TbFileCertificate style={{ marginRight: '8px' }}/> Certifications</Link>
-        <Link to="/resume" className="menu-item"><FaFileAlt style={{ marginRight: '8px' }}/> Resume</Link>
-        <Link to="/contact" className="menu-item"><MdContactMail style={{ marginRight: '8px' }}/> Contact</Link>
+
+      <div className="side-menu">
+        <NavLink to="/" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
+          <FaHome style={{ marginRight: '7px' }} />Home
+        </NavLink>
+        <NavLink to="/about" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
+          <FaUserAlt style={{ marginRight: '7px' }} />About Me
+        </NavLink>
+        <NavLink to="/education" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
+          <FaGraduationCap style={{ marginRight: '7px' }} />Education
+        </NavLink>
+        <NavLink to="/projects" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
+          <FaLaptopCode style={{ marginRight: '7px' }} />Projects
+        </NavLink>
+        <NavLink to="/certifications" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
+          <TbFileCertificate style={{ marginRight: '7px' }} />Certifications
+        </NavLink>
+        <NavLink to="/resume" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
+          <FaFileAlt style={{ marginRight: '7px' }} />Resume
+        </NavLink>
+        <NavLink to="/contact" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
+          <FaMailBulk style={{ marginRight: '7px' }} />Contact
+        </NavLink>
       </div>
     </div>
   );
