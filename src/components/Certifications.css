@@ -1,0 +1,40 @@
+.certifications-body {
+    margin-left: 320px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    padding: 5px;  
+}
+
+.certifications {
+    color:#1DB954;
+}
+
+
+.certifications-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+    display: block;
+    margin-left: 10px;
+    margin-top: -18px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certification-arrow {
+    color: #1DB954;
+}
+
+.certifications-p {
+    font-size: 12px;
+    margin-top: -28px;
+    text-align: center;
+    color: grey;
+}
+   

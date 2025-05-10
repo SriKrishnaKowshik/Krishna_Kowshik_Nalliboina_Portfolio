@@ -1,6 +1,3 @@
-/* Sidebar.css */
-
-/* Sidebar container styles */
 .sidebar {
     position: fixed;
     top: 0;
@@ -13,12 +10,10 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     justify-content: flex-start;
   }
   
-  /* Logo section styles */
-  .logo-container {
+  .logo-name {
     text-align: center;
     margin-bottom: 30px;
   }
@@ -27,16 +22,14 @@
     font-size: 24px;
     font-weight: bold;
   }
-  
-  /* Menu container styles */
-  .menu-container {
+
+  .side-menu {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
   
-  /* Individual menu item styles */
-  .menu-item {
+  .side-item {
     text-decoration: none;
     color: white;
     padding: 3px 10px;
@@ -48,8 +41,11 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Hover effect for menu items */
-  .menu-item:hover {
+  .side-item.active {
+    color: #1DB954;
+    font-weight: bold;
+  }
+  .side-item:hover {
     background-color: #333;
   }
   

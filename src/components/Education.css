@@ -1,0 +1,22 @@
+.body {
+    margin-left: 320px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    padding: 5px;  
+}
+
+.Education {
+    color:#1DB954;
+}
+.Edu-head {
+    font-size: 33px;
+}
+.Edu-name {
+    font-size: 24px;
+    margin-top: -22px;
+}
+
+.Edu-list {
+    margin-top: -5px;
+    font-size: 18px;
+}

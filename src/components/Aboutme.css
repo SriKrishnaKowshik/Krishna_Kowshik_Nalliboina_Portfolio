@@ -1,0 +1,38 @@
+.body {
+    margin-left: 320px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    padding: 5px;  
+}
+
+.summary{
+    color:#1DB954;
+}
+.summary-headings {
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+.summary-p {
+    text-align: justify;
+    margin-left: 11px;
+    margin-top:-12px;
+    font-size: 1.1rem;
+}
+.summary-skill-list {
+    margin-top: -10px;
+    font-size: 1.1rem;
+    line-height: 33px;
+}
+.summary-list {
+    font-size: 17px;
+    line-height: 33px;
+    margin-top: -30px;
+    font-size: 1.1rem;
+}
+
+b {
+    font-size: 17px;
+}
+br {
+    margin: 1px;
+}
