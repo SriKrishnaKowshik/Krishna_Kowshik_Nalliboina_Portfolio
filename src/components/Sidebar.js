@@ -15,25 +15,25 @@ const Sidebar = () => {
 
       <div className="side-menu">
         <NavLink to="/" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
-          <FaHome style={{ marginRight: '7px' }} />Home
+          <FaHome style={{ marginRight: '7px' }} /><span>Home</span>
         </NavLink>
         <NavLink to="/about" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
-          <FaUserAlt style={{ marginRight: '7px' }} />About Me
+          <FaUserAlt style={{ marginRight: '7px' }} /><span>About Me</span>
         </NavLink>
         <NavLink to="/education" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
-          <FaGraduationCap style={{ marginRight: '7px' }} />Education
+          <FaGraduationCap style={{ marginRight: '7px' }} /><span>Education</span>
         </NavLink>
         <NavLink to="/projects" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
-          <FaLaptopCode style={{ marginRight: '7px' }} />Projects
+          <FaLaptopCode style={{ marginRight: '7px' }} /><span>Projects</span>
         </NavLink>
         <NavLink to="/certifications" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
-          <TbFileCertificate style={{ marginRight: '7px' }} />Certifications
+          <TbFileCertificate style={{ marginRight: '7px' }} /><span>Certifications</span>
         </NavLink>
         <NavLink to="/resume" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
-          <FaFileAlt style={{ marginRight: '7px' }} />Resume
+          <FaFileAlt style={{ marginRight: '7px' }} /><span>Resume</span>
         </NavLink>
         <NavLink to="/contact" className={({ isActive }) => isActive ? "side-item active" : "side-item"}>
-          <FaMailBulk style={{ marginRight: '7px' }} />Contact
+          <FaMailBulk style={{ marginRight: '7px' }} /><span>Contact</span>
         </NavLink>
       </div>
     </div>

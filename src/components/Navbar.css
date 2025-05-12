@@ -20,3 +20,9 @@ h3 {
 .Logo {
   height: 45px;
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    left: 10px;
+  }
+}
