@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .app-container {
+        margin-top: 50px;
+        margin-left: -230px;
+        margin-right: -330px;
+        padding: 10px;
+    }
+
+}
+

@@ -1,122 +1,182 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(25, 20, 20); 
-    /* background-color:rgba(210, 197, 199, 0.1); */
-    color: #ffffff; /* White */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: rgb(25, 20, 20); 
+  /* background-color:rgba(210, 197, 199, 0.1); */
+  color: #ffffff; /* White */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
 
 .home_profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
 }
+
 .Introduction {
-    text-align: center;
-    padding: 300px 20px 20px;
-    align-content: center;
- }
+  text-align: center;
+  padding: 300px 20px 20px;
+  align-content: center;
+}
 
 .name-kowshik {
-    font-size: 3.5rem;
-    margin-bottom: 10px;
-    margin-left: 23px;
-    margin-top: -40px;
-    color:white;
-    /* color: #1DB954; */
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgb(176, 154, 157);
-    display: inline-block;
-    padding: 0 13px;
-    
-  }
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  margin-left: 23px;
+  margin-top: -40px;
+  color:white;
+  /* color: #1DB954; */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgb(176, 154, 157);
+  display: inline-block;
+  padding: 0 13px;
+  
+}
 
 h2 {
-    color: #bbbbbb; /* Light gray for subtitle */
-    margin-top: 100px;
-    margin-right: 285px;
-    font-size: 2.8rem;
-  }
+  color: #bbbbbb; /* Light gray for subtitle */
+  margin-top: 100px;
+  margin-right: 285px;
+  font-size: 2.8rem;
+}
 
 .Intro-line {
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: 400;
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 0 10px;
-    margin-left: 2.3rem;
-    text-align: center;
-    color: #bbbbbb;
-    border-radius: 12px;
-    /* background-color: #111; */
-    background-color:rgba(29, 29, 29, 1);
-    /* box-shadow: 0 0 10px rgba(210, 197, 199, 0.1); */
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 0 10px;
+  margin-left: 2.3rem;
+  text-align: center;
+  color: #bbbbbb;
+  border-radius: 12px;
+  /* background-color: #111; */
+  background-color:rgba(29, 29, 29, 1);
+  /* box-shadow: 0 0 10px rgba(210, 197, 199, 0.1); */
 }
 
 .explore {
-    text-align: left;
-    font-size: 25px;
-    margin-top: 85px;
-    margin-right: 665px;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 85px;
+  margin-right: 665px;
 }
 .button-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 per row */
-    gap: 30px;
-    padding: 50px;
-    margin-top: -27px;
-    margin-bottom: 220px;
-    justify-items: center;
-  }
-  
-  .btn-card {
-    display: flex;
-    flex-direction: column;
-    background-color: #1d1d1d;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    width: 200px;
-    height: 80px;
-    border-radius: 12px;
-    border: none;
-    transition: transform 0.3s ease;
-    display: inline-block;
-    text-align:left;
-    box-shadow: 0 0 10px rgba(255, 2550, 255, 0.1);
-  }
-  
-  .btn-card h3 {
-    font-size: 18px;
-    color: white;
-    margin: 0;
-  }
-  
-  .btn-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 20px rgba(113, 110, 110, 0.452);
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 30px;
+  padding: 50px;
+  margin-top: -27px;
+  margin-bottom: 220px;
+  justify-items: center;
+}
 
-  .btn-description {
-    /* margin: 8px -14px; */
-    margin: 8px 0 0;
-    font-size: 14px;
-    text-align: left;
-    padding-left: 0;
-    font-style: italic;
-  }
+.btn-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  width: 200px;
+  height: 80px;
+  border-radius: 12px;
+  border: none;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  text-align:left;
+  box-shadow: 0 0 10px rgba(255, 2550, 255, 0.1);
+}
 
-  footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-    color: #666;
-  }
-  
-  
+.btn-card h3 {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+.btn-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(113, 110, 110, 0.452);
+}
+
+.btn-description {
+  /* margin: 8px -14px; */
+  margin: 8px 0 0;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 0;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+
+/* For tablets and below (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+
+.button-grid {
+  grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+}
+
+.explore {
+  margin-right: 0;
+  text-align: center;
+}
+}
+
+/* For mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+
+.Introduction {
+  padding: 100px 10px 20px;
+  margin-left: 220px;
+}
+
+.name-kowshik {
+  font-size: 2rem;
+  margin-left: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 50px;
+  margin-right: 0;
+  text-align: center;
+}
+
+.Intro-line {
+  font-size: 16px;
+  margin-left: 0;
+}
+
+.explore {
+  font-size: 20px;
+  text-align: center;
+  margin: 50px 0 40px;
+}
+
+.button-grid {
+  grid-template-columns: 1fr; /* Stack 1 per row on mobile */
+  padding: 20px;
+  gap: 20px;
+  margin-left: 220px;
+}
+
+.btn-card {
+  width: 100%;
+  max-width: 300px;
+}
+}
+
+

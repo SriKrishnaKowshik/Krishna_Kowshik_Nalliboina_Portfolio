@@ -44,3 +44,61 @@
     margin-left: 190px;
     padding: 5px;
 }
+
+
+
+/* Tablet (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+    .resume-link {
+      width: 90%;
+      font-size: 18px;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 10px auto;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  
+    .resume-p {
+      font-size: 13px;
+      margin: 8px auto 20px auto;
+      text-align: center;
+      color: grey;
+    }
+  
+    .resume-arrow {
+      margin-left: 10px;
+      padding: 0;
+    }
+  }
+  
+
+  
+  /* Mobile (less than 768px) */
+  @media screen and (max-width: 768px) {
+    .resume-link {
+      width: 100%;
+      font-size: 16px;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 10px auto;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  
+    .resume-p {
+      font-size: 12px;
+      margin: 8px auto 20px auto;
+      text-align: center;
+      color: grey;
+    }
+  
+    .resume-arrow {
+      margin-left: 10px;
+      padding: 0;
+    }
+  }
+  
+  

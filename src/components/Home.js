@@ -2,7 +2,6 @@ import React from "react";
 import './Home.css';
 import { FaUserAlt, FaGraduationCap, FaLaptopCode, FaFileAlt, FaMailBulk } from 'react-icons/fa';
 import { TbFileCertificate } from "react-icons/tb";
-import { MdContactMail } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
